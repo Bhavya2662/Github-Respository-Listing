@@ -28,7 +28,7 @@ $(document).ready(function () {
                 $('#userName').text(user.name);
                 $('#userBio').text(user.bio);
                 // Add user location and Twitter link here
-                $('#userLocation').text(`&#xf041 ${user.location}`);
+                $('#userLocation').text(` ${user.location}`);
                 $('#userTwitter').attr('href', `https://twitter.com/${user.twitter_username}`);
                 // Add GitHub link here
                 $('#userGitHub').attr('href', user.html_url);
